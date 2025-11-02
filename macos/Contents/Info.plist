@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- App name -->
+  <key>CFBundleName</key>
+  <string>GPUInfo</string>
+
+  <!-- Executable inside Contents/MacOS/ -->
+  <key>CFBundleExecutable</key>
+  <string>run.sh</string>
+
+  <!-- Unique bundle identifier -->
+  <key>CFBundleIdentifier</key>
+  <string>org.catrious.gpuinfo</string>
+
+  <!-- App icon -->
+  <key>CFBundleIconFile</key>
+  <string>icon.icns</string>
+
+  <!-- App type -->
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+
+  <!-- Version info -->
+  <key>CFBundleVersion</key>
+  <string>1.0</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0</string>
+
+  <!-- Minimum OS X version -->
+  <key>LSMinimumSystemVersion</key>
+  <string>10.11</string>
+
+  <!-- No developer signing required -->
+  <key>CSResourcesFileMapped</key>
+  <false/>
+</dict>
+</plist>
